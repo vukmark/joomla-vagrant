@@ -68,8 +68,11 @@
     "provisioners": [
         {
             "type": "shell",
-            "script": "scripts/init.sh",
-            "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'"
+            "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
+            "scripts": [
+                "scripts/init.sh",
+                "scripts/ssh_key.sh"
+            ]
         },
         {
             "type": "shell",
