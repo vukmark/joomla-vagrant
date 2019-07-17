@@ -71,7 +71,8 @@
             "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
             "scripts": [
                 "scripts/init.sh",
-                "scripts/ssh_key.sh"
+                "scripts/ssh_key.sh",
+                "scripts/install_lamp.sh"
             ]
         },
         {
