@@ -72,8 +72,9 @@
             "scripts": [
                 "scripts/init.sh",
                 "scripts/ssh_key.sh",
+                "scripts/install_common_software.sh",
                 "scripts/install_lamp.sh",
-                "scripts/install_common_software.sh"
+                "scripts/install_composer.sh"
             ]
         },
         {
