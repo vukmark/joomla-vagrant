@@ -3,3 +3,5 @@ output/*
 packer_cache
 .vagrant
 Vagrantfile
+Project
+www
