@@ -83,6 +83,7 @@
     "post-processors": [{
       "type": "vagrant",
       "compression_level": "8",
-      "output": "output/vukmark-joomla-vagrant.{{ user `version` }}.box"
+      "output": "output/vukmark-joomla-vagrant.{{ user `version` }}.box",
+      "vagrantfile_template": "Vagrantfile_template.rb"
     }]
   }
